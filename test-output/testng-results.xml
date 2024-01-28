@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-29T23:21:47 EET" name="Default suite" finished-at="2023-10-29T23:22:00 EET" duration-ms="13042">
+    <groups>
+    </groups>
+    <test started-at="2023-10-29T23:21:47 EET" name="Default test" finished-at="2023-10-29T23:22:00 EET" duration-ms="13042">
+      <class name="testPackage.TestClass">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:47 EET" name="beforeClass" finished-at="2023-10-29T23:21:48 EET" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:48 EET" name="beforeMethod" finished-at="2023-10-29T23:21:54 EET" duration-ms="5803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkPageTitle()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:54 EET" name="checkPageTitle" description="Given I am on the Google Home page, Then the page title should be &#039;Google&#039;." finished-at="2023-10-29T23:21:54 EET" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:54 EET" name="afterMethod" finished-at="2023-10-29T23:21:54 EET" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:54 EET" name="beforeMethod" finished-at="2023-10-29T23:21:55 EET" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkThatGoogleLogoIsDisplayed()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:55 EET" name="checkThatGoogleLogoIsDisplayed" description="Given I am on the Google Home page, Then the Google Logo will be displayed." finished-at="2023-10-29T23:21:55 EET" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatGoogleLogoIsDisplayed -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:55 EET" name="afterMethod" finished-at="2023-10-29T23:21:56 EET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:56 EET" name="beforeMethod" finished-at="2023-10-29T23:21:57 EET" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkThatResultStatsIsNotEmpty()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:21:57 EET" name="checkThatResultStatsIsNotEmpty" description="Given I am on the Google Home page, When I search for &#039;Selenium WebDriver&#039;, Then the result stats will not be empty." finished-at="2023-10-29T23:22:00 EET" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatResultStatsIsNotEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testPackage.TestClass@4b8ee4de]" started-at="2023-10-29T23:22:00 EET" name="afterMethod" finished-at="2023-10-29T23:22:00 EET" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testPackage.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
