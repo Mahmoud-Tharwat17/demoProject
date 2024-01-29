@@ -21,7 +21,9 @@ public class TestClass {
 	public void checkPageTitle() {
 		System.out.println("checkPageTitle");
 		String title = home.getTitle();
+		
 		Assert.assertEquals(title, "Google");
+		System.println("Test is Done");
 	}
 
 	@Test(description = "Given I am on the Google Home page, Then the Google Logo will be displayed.")
